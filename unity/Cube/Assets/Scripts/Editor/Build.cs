@@ -6,7 +6,6 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 using Application = UnityEngine.Application;
-using BuildResult = UnityEditor.Build.Reporting.BuildResult;
 
 public class Build : MonoBehaviour
 {
@@ -36,8 +35,6 @@ public class Build : MonoBehaviour
             options
         );
 
-        if (report.summary.result != BuildResult.Succeeded)
-            throw new Exception("Build failed");
    
         Copy(buildPath, exportPath);
 
@@ -75,8 +72,7 @@ public class Build : MonoBehaviour
             options
         );
 
-        if (report.summary.result != BuildResult.Succeeded)
-            throw new Exception("Build failed");   
+
     }
 
     static void Copy(string source, string destinationPath)

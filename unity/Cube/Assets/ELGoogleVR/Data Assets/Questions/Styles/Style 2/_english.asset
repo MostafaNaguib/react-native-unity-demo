@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4484ecef8e6f3943ac011a706add2fd, type: 3}
+  m_Name: _english
+  m_EditorClassIdentifier: 
+  layoutDirection: 1
+  font: {fileID: 11400000, guid: d62a573c923f5cb47b8ff65261033b90, type: 2}
+  background: {fileID: 21300000, guid: c87de6da2321e6747a46c722780ef1de, type: 3}
+  colorStartMessage: {r: 1, g: 1, b: 1, a: 1}
+  colorStartAction: {r: 0, g: 0.7921569, b: 1, a: 1}
+  colorQuestion: {r: 1, g: 1, b: 1, a: 1}
+  colorChoice: {r: 0.10980392, g: 0.23921569, b: 0.4, a: 1}
+  colorReward: {r: 0.10980392, g: 0.23921569, b: 0.4, a: 1}
+  colorFinish: {r: 1, g: 1, b: 1, a: 1}
+  startActionSprite: {fileID: 21300000, guid: 5e085d8a72db72d41b86ef1b9d75800a, type: 3}
+  rewardBackground: {fileID: 21300000, guid: 85d92c80c372b35498f5320e56fcabb0, type: 3}
+  trueSprites:
+  - {fileID: 21300000, guid: 483c3c5eb7887cf48aaa570a6611bd64, type: 3}
+  - {fileID: 21300000, guid: 21bd1dac253b5b848b5b3cff31c3c1b4, type: 3}
+  - {fileID: 21300000, guid: 07ead4c711bd6864e9820bfe1e5501fe, type: 3}
+  falseSprites:
+  - {fileID: 21300000, guid: ce4b740656b9c6d449c42242d089e5d9, type: 3}
+  - {fileID: 21300000, guid: 711f019b21700b84d9ab2103dd2b0902, type: 3}
+  - {fileID: 21300000, guid: 33de36c035f23874fb0df71e1b294c10, type: 3}
+  choiceBackgroundSprites:
+  - {fileID: 21300000, guid: e4acd74df85f19d4da6f3fc58e02a48b, type: 3}
+  - {fileID: 21300000, guid: d3c9cc39b54dd604a88374670a74f636, type: 3}
+  - {fileID: 21300000, guid: ac6f89143fc6f9749ad36c3a0547218a, type: 3}
+  startMessageTAblock: {fileID: 11400000, guid: a3121f4f6ce130f4f9678d04abcf26ef,
+    type: 2}
+  startActionTAblock: {fileID: 11400000, guid: 29b9bbaf1af167545992845b7065eb24, type: 2}
+  finishMessageGoodTAblock: {fileID: 11400000, guid: e681eb24405def646af29f52120ab928,
+    type: 2}
+  finishMessageBadTAblock: {fileID: 11400000, guid: 2565a932c13b7df48b311d4d25cf7dd1,
+    type: 2}
+  correctAnswerFeedbacks: []
+  wrongAnswerFeedbacks: []
+  choiceTrue: {fileID: 0}
+  choiceFalse: {fileID: 0}

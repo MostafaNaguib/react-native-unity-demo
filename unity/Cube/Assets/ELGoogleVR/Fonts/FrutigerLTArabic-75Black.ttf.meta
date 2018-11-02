@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3e18e74005d8a204c94f604a1c1a4344
+timeCreated: 1527150972
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Frutiger LT Arabic
+  fontNames:
+  - Frutiger LT Arabic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
