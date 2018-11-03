@@ -51,6 +51,6 @@ buck-out/
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
-/android/UnityExport
-/ios/UnityExport
+#/android/UnityExport
+#/ios/UnityExport
 /out
